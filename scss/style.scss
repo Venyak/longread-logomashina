@@ -1,0 +1,78 @@
+@import './components/all';
+@import './variables';
+
+body {
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	background: url(../img/background.png) repeat;
+	background-color: $beige;
+	margin: 0;
+	padding: 0;
+}
+
+div,
+p,
+input,
+button,
+form,
+a,
+ul,
+li {
+  box-sizing: border-box;
+}
+
+span {
+	box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+ul, li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2 {
+	font-family: 'Alumni Sans', sans-serif;
+	color: $blue;
+	font-weight: 300;
+
+	span {
+		font-weight: 700;
+	}
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+
+.container {
+	width: 1150px;
+	margin: 0 auto;
+}
+
+.screen {
+	margin-top: 100px;
+}
+
+.focus {
+	border-top: 2px solid $yellow;
+	border-bottom: 2px solid $yellow;
+	padding: 25px 20px;
+	text-align: center;
+	color: $yellow;
+
+	p {
+		font-style: italic;
+		font-weight: 500;
+		font-size: 32px;
+		line-height: 38px;
+		font-family: 'Alumni Sans';
+	}
+}

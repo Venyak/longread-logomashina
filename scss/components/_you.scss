@@ -1,0 +1,35 @@
+.you {
+	background-color: $blue;
+	padding-top: 80px;
+	padding-bottom: 65px;
+
+	&__title {
+		text-align: center;
+		width: 360px;
+		margin-left: auto;
+		margin-right: auto;
+
+		h2 {
+			font-weight: 300;
+			font-size: 40px;
+			line-height: 48px;
+			color: $beige;
+		}
+	}
+
+	&__text {
+		display: flex;
+		justify-content: space-between;
+		color: $beige;
+		width: 760px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 30px;
+
+		&-block{
+			width: 360px;
+			font-size: 16px;
+			line-height: 130%;
+		}
+	}
+}

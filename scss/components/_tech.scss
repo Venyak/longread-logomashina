@@ -1,0 +1,54 @@
+.tech {
+	
+	&__title {
+		text-align: center;
+
+		h2 {
+			font-size: 40px;
+			line-height: 48px;
+		}
+	}
+
+	&__wrapper {
+		margin-top: 30px;
+		display: flex;
+		justify-content: space-between;
+
+		
+	}
+
+	&__block {
+		width: 565px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		&:first-child {
+			width: 488px;
+		}
+	}
+
+	&__text {
+
+		h3 {
+			font-weight: 800;
+			font-size: 20px;
+			line-height: 114.5%;
+			color: $black;
+		}
+
+		&-block {
+			margin-top: 15px;
+
+			p {
+				margin-bottom: 20px;
+			}
+		}
+	}
+
+	&__img {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}

@@ -1,0 +1,25 @@
+@import '../animation';
+
+.header {
+	padding: 40px 0;
+
+	.container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+		position: fixed;
+		transform: translate(-50%);
+		left: 50%;
+		z-index: 100;
+	}
+
+	&__logo {
+		animation: flying 3s ease-in-out infinite;
+	}
+
+	&__menu {
+		position: absolute;
+		right: 0;
+	}
+}
